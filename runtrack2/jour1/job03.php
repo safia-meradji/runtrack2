@@ -11,6 +11,7 @@ echo '<table>
             <tr>
                 <th>Type</th>
                 <th>Nom</th>
+                <th>Value</th>
             </tr>
         </thead>
         <tbody>
@@ -18,6 +19,7 @@ echo '<table>
                 <td>bool</td>
                 <td>booleanVar<td>
                 <td>'. $booleanVar . '</td>
+                <td>'.var_export($booleanVar, true) .'</td>
             </tr>
             <tr>
                 <td>int</td>
@@ -26,6 +28,7 @@ echo '<table>
             </tr>
             <tr>
                 <td>float</td>
+                <td>integarVar</td>
                 <td>' . $floatVar .'</td>
             </tr>
         </tbody>
